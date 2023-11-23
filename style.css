@@ -1,0 +1,57 @@
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: linear-gradient(to right bottom, #ff8ded, #ee71ea, #da55e9, #c137e9, #a312eb);
+}
+.app {
+    height: 100vh;
+    /* background-color: rgb(217, 34, 34); */
+    display: flex;
+    margin: 50px;
+    
+}
+
+.left { 
+    
+   
+    border-radius: 50px 0px 0px 50px;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+ 
+}
+
+.right {
+    padding: 40px;
+    display: flex;
+    border-radius: 0px 50px 50px 0px;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.3); 
+    align-items: center;
+    }
+
+.login-form {
+    flex: 1;
+    
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input { 
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    background-color: rgb(187, 231, 231,0.3);
+    border-radius: 20px;
+  }
+  button {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    /* Children-C */
+    align-self: flex-start;
+    min-width: 200px;
+    border-radius: 20px;
+  }
